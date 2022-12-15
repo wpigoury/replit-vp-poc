@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-241362482-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "UA-241362482-1", {'send_page_view': false});
+    //gtag("config", "UA-241362482-1");
+    /*
+    hits.page.pagePath
+    */
+    gtag('event', 'page_view', {
+      page_title: 'Registration',
+      page_location: 'https://vp-poc.wpigoury.repl.co/registration' // Include the full URL
+    });
+  </script>
+  <!--<script
+            src="https://www.googleoptimize.com/optimize.js?id=GTM-T6HNW47"
+            async
+        ></script>-->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PoC viewport tracker</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="log"><u>Logger</u>:</div>
+  <div class="container">
+    <h1>Hello GO tracking!</h1>
+    <div>
+      Adding item below the fold with GO and track impression when it
+      comes within the viewport
+    </div>
+    <div>
+      <picture class="added" alt="Abstract heart">
+        <source media="(min-width:650px)" srcset="
+                            https://doodleipsum.com/700x525/abstract?i=74431510267fc1f508e74102732677e6
+                        " />
+        <source media="(min-width:465px)" srcset="
+                            https://doodleipsum.com/400x300/abstract?i=74431510267fc1f508e74102732677e6
+                        " />
+        <img src="https://doodleipsum.com/700x525/abstract?i=74431510267fc1f508e74102732677e6" alt="Abstract heart"
+          style="width: 700px; height: 525px" />
+      </picture>
+      <picture>
+        <source media="(min-width:650px)" srcset="
+                            https://doodleipsum.com/700x525/abstract?i=62b9bf684a49d29f97e9a2bad56b5403
+                        " />
+        <source media="(min-width:465px)" srcset="
+                            https://doodleipsum.com/400x300/abstract?i=62b9bf684a49d29f97e9a2bad56b5403
+                        " />
+        <img src="https://doodleipsum.com/700x525/abstract?i=62b9bf684a49d29f97e9a2bad56b5403" alt="Abstract computer"
+          style="width: 700px; height: 525px" />
+      </picture>
+      <picture>
+        <source media="(min-width:650px)" srcset="
+                            https://doodleipsum.com/700x525/abstract?i=bca1e8588e68e8c73a6b721edae668c9
+                        " />
+        <source media="(min-width:465px)" srcset="
+                            https://doodleipsum.com/400x300/abstract?i=bca1e8588e68e8c73a6b721edae668c9
+                        " />
+        <img src="https://doodleipsum.com/700x525/abstract?i=bca1e8588e68e8c73a6b721edae668c9"
+          alt="Abstract phone and eye" style="width: 700px; height: 525px" />
+      </picture>
+      <video class="added" preload="auto" style="width: 700px" title="Video banner" muted="true" loop="true">
+        <source
+          src="https://videos.ctfassets.net/olgn490fyv7t/6mBkvOiAYj2VE5ZdOzjCJB/3ff50cd14521a8a2d5aee7ce69cbeccb/Ninjamas_Pyjama_Pants.mp4"
+          type="video/mp4" />
+        <source
+          src="https://videos.ctfassets.net/olgn490fyv7t/1vUUKX0xcvePjmWIc2F5g4/8268053d71831f725694bc0a9df4a644/Ninjamas_Pyjama_Pants.webm"
+          type="video/webm" />
+      </video>
+      <!--<picture class="added">
+                    <source
+                        media="(min-width:650px)"
+                        srcset="
+                            https://doodleipsum.com/700x394/flat?i=d9b7afd47e72690f4113cb5795b3ba52
+                        "
+                    />
+                    <source
+                        media="(min-width:465px)"
+                        srcset="
+                            https://doodleipsum.com/400x225/flat?i=d9b7afd47e72690f4113cb5795b3ba52
+                        "
+                    />
+                    <img
+                        src="https://doodleipsum.com/700x394/flat?i=d9b7afd47e72690f4113cb5795b3ba52"
+                        alt="Banner"
+                        style="width: 700px; height: 394px"
+                        class="show"
+                    />
+                </picture>-->
+      <picture>
+        <source media="(min-width:650px)" srcset="
+                            https://doodleipsum.com/700x525/abstract?i=cb0515299c600124805d923f3619c1ad
+                        " />
+        <source media="(min-width:465px)" srcset="
+                            https://doodleipsum.com/400x300/abstract?i=cb0515299c600124805d923f3619c1ad
+                        " />
+        <img src="https://doodleipsum.com/700x525/abstract?i=cb0515299c600124805d923f3619c1ad" alt="Abstract box"
+          style="width: 700px; height: 525px" />
+      </picture>
+      <picture>
+        <source media="(min-width:650px)" srcset="
+                            https://doodleipsum.com/700x525/abstract?i=9e88b00d558613df9b31e2d3782244c3
+                        " />
+        <source media="(min-width:465px)" srcset="
+                            https://doodleipsum.com/400x300/abstract?i=9e88b00d558613df9b31e2d3782244c3
+                        " />
+        <img src="https://doodleipsum.com/700x525/abstract?i=9e88b00d558613df9b31e2d3782244c3" alt="Abstract hands"
+          style="width: 700px; height: 525px" />
+      </picture>
+      <video class="added" preload="auto" style="width: 700px" title="Video banner" muted="true" loop="true">
+        <source
+          src="https://videos.ctfassets.net/olgn490fyv7t/6mBkvOiAYj2VE5ZdOzjCJB/3ff50cd14521a8a2d5aee7ce69cbeccb/Ninjamas_Pyjama_Pants.mp4"
+          type="video/mp4" />
+        <source
+          src="https://videos.ctfassets.net/olgn490fyv7t/1vUUKX0xcvePjmWIc2F5g4/8268053d71831f725694bc0a9df4a644/Ninjamas_Pyjama_Pants.webm"
+          type="video/webm" />
+      </video>
+    </div>
+  </div>
+</body>
+
+</html>
